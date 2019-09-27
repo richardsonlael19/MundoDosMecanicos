@@ -1,0 +1,707 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+		
+		<title>Visualize by TEMPLATED</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+	</head>
+	<body>
+		
+		<!-- Wrapper -->
+			<div id="wrapper">
+            
+				<!-- Header -->
+					<header id="header">
+						<span class="avatar"><img src="images/avatar.jpg" class="img-responsive" alt="" /></span>
+						<h1 class="col-12"> Entre agora no grupo do whatsapp <strong >O MUNDO DOS MECÂNICOS</strong> de sua região</h1>
+
+						
+					</header>
+</div>
+	
+	<div class="container">
+		<p>
+			<!--SELECT ESTADOS -->
+			<div>
+				<div>
+  <select id="estado" onchange="clickopcao()" class="basic"> 
+    <option value="Estado" selected="selected">Estado</option>
+    <option value="Acre" id="acre">Acre</option>
+    <option value="Alagoas" id="alagoas">Alagoas</option>
+    <option value="Amapá" id="amapa">Amapá</option>
+    <option value="Amazonas" id="amazonas">Amazonas</option>
+    <option value="Bahia" id="bahia" >Bahia</option>
+    <option value="Ceará" id="ceara" >Ceará</option>
+    <option value="Distrito Federal" id="distrito">Distrito Federal</option>
+    <option value="Espírito Santo" id="espirito">Espírito Santo</option>
+    <option value="Goiás" id="goias" >Goiás</option>
+    <option value="Maranhão" id="maranhao">Maranhão</option>
+    <option value="Mato Grosso" id="matogrosso">Mato Grosso</option>
+    <option value="Mato Grosso do Sul" id="matogrossosul">Mato Grosso do Sul</option>
+    <option value="Minas Gerais" id="minas">Minas Gerais</option>
+    <option value="Pará" id="para" >Pará</option>
+    <option value="Paraíba" id="paraiba">Paraíba</option>
+    <option value="Paraná" id="parana">Paraná</option>
+    <option value="Pernambuco" id="pernambuco">Pernambuco</option>
+    <option value="Piauí" id="piaui">Piauí</option>
+    <option value="Rio de Janeiro" id="rio">Rio de Janeiro</option>
+    <option value="Rio Grande do Norte" id="riograndenorte">Rio Grande do Norte</option>
+    <option value="Rio Grande do Sul" id="riograndesul">Rio Grande do Sul</option>
+    <option value="Rondônia" id="rondonia">Rondônia</option>
+    <option value="Roraima" id="roraima">Roraima</option>
+    <option value="Santa Catarina" id="santacarina">Santa Catarina</option>
+    <option value="São Paulo" id="saopaulo">São Paulo</option>
+    <option value="Sergipe" id="sergipe">Sergipe</option>
+    <option value="Tocantins" id="tocantins">Tocantins</option>
+
+  </select>
+  <!--Fim do Select Estados-->
+</div>
+</div>
+</p>
+</div>
+
+		<div id="divgrande">
+		<p>
+<!-- SELECT CIDADES -->
+
+		<!--Select Acre -->
+		<div id="esconder1" style="display: none;">
+  <select id="cidadeacre" onchange="clickopcao2()" class="basic">
+	<option value="Cidade" selected="selected" >Cidade</option>
+	<option value="Acre">Acre</option>
+			</select>
+		</div>
+       <!-- Fim do Select Acre -->
+
+<!--Select Alagoas -->
+<div id="esconder2" style="display: none;">
+  <select id="cidadealagoas" onchange="clickopcao3()" class="basic">
+	<option value="Cidade" selected="selected" >Cidade</option>
+	<option value="Maceió">Maceió</option>
+	<option value="Interior Alagoano">Interior Alagoano</option>
+</select>
+</div>
+<!--Fim do Select Alagoas -->
+
+<!--Select Amapá -->
+<div id="esconder3"  style="display: none;">
+<select id="cidadeamapa" onchange="clickopcao4()" class="basic">
+	<option value="Cidade" selected="selected" >Cidade</option>
+	<option value="Amapá">Amapá</option>
+</select>
+</div>
+<!--Fim do Select Amapá -->
+
+<!-- Select Amazonas -->
+<div id="esconder4"  style="display: none;">
+<select id="cidadeamazonas" onchange="clickopcao5()" class="basic">
+	<option value="Cidade" selected="selected" >Cidade</option>
+	<option value="Manaus" id="manaus">Manaus</option>
+	<option value="Interior Amazonense" id="interioramazonas">Interior Amazonense</option>
+</select>
+</div>
+<!--Fim do Select Amazonas -->
+
+<!-- Select Bahia -->
+<div id="esconder5"  style="display: none;">
+<select id="cidadebahia" onchange="clickopcao6()" class="basic">
+	<option value="Cidade" selected="selected" >Cidade</option>
+	<option value="Salvador" id="salvador">Salvador</option>
+	<option value="Salvador e Região Metropolitana" id="salvadormetro">Salvador e Região Metropolitana</option>
+	<option value="Oeste Baiano" id="oestebaiano">Oeste Baiano</option>
+	<option value="Sul Baiano" id="sulbaiano">Sul Baiano</option>
+	<option value="Norte Baiano" id="nortebaiano">Norte Baiano</option>
+	<option value="Leste Baiano" id="lestebaiano">Leste Baiano</option>
+</select>
+</div>
+<!--Fim do Select Bahia -->
+
+<!--Select Ceará -->
+<div id="esconder6"  style="display: none;">
+  <select id="cidadeceara" onchange="clickopcao7()" class="basic"> 
+    <option value="Cidade" selected="selected" >Cidade</option>
+    <option value="Fortaleza" id="fortaleza">Fortaleza</option>
+    <option value="Fortaleza e Região Metropolitana" id="fortalemetro">Fortaleza e Região Metropolitana</option>
+    <option value="Baturité e Região" id="baturite">Baturité e Região</option>
+    <option value="Região Litorânea" id="litoral">Região Litorânea</option>
+    <option value="Sobral e Região" id="sobral">Sobral e Região</option>
+    <option value="Cariri e Região" id="cariri">Cariri e Região</option>
+    <option value="Jaguaribe e Região" id="jaguaribe">Jaguaribe e Região</option>
+  </select>
+</div>
+  <!--Fim do Select Ceará -->
+
+<!--Select Distrito Federal -->
+<div id="esconder7"  style="display: none;">
+  <select id="cidadedistritofederal" onchange="clickopcao8()" class="basic">
+  	<option value="Cidade" selected="selected" >Cidade</option>
+  	<option value="Brasília" id="brasilia">Brasília</option>
+  	<option value="Cidades Satélites" id="satelite">Cidades Satélites</option>
+  </select>
+</div>
+<!--Fim do Select Distrito Federal -->
+
+<!--Select Espírito Santo -->
+<div id="esconder8"  style="display: none;">
+  <select id="cidadeespiritosanto" onchange="clickopcao9()" class="basic">
+  	<option value="Cidade" selected="selected" >Cidade</option>
+  	<option value="Vila Velha" id="vilhavelha">Vila Velha</option>
+  	<option value="Sul do Espírito Santo" id="sulespirito">Sul do Espírito Santo</option>
+  	<option value="Norte do Espírito Santo" id="norteespirito">Norte do Espírito Santo</option>
+  </select>
+</div>
+<!--Fim do Select Espírito Santo -->
+
+<!--Select Goiás -->
+<div id="esconder9"  style="display: none;">
+  <select id="cidadegoias" onchange="clickopcao10()" class="basic">
+  	<option value="Cidade" selected="selected" >Cidade</option>
+  	<option value="Goiânia" id="goiania">Goiânia</option>
+  	<option value="Norte Goiâno" id="nortegoiania">Norte Goiâno</option>
+  	<option value="Centro-Oeste Goiâno" id="centrooestegoiania">Centro-Oeste Goiâno</option>
+  	<option value="Sul Goiâno" id="sulgoiania">Sul Goiâno</option>
+  </select>
+</div>
+<!--Fim do Select Goiás -->
+
+<!--Select Maranhão -->
+<div id="esconder10"  style="display: none;">
+  <select id="cidademaranhao" onchange="clickopcao11()" class="basic">
+  	<option value="Cidade" selected="selected" >Cidade</option>
+  	<option value="São Luis" id="saoluis">São Luis</option>
+  	<option value="Interior Maranhense" id="interiormaranhao">Interior Maranhense</option>
+  </select>
+</div>
+<!--Fim do Select Maranhão -->
+
+<!--Select Mato Grosso -->
+<div id="esconder11"  style="display: none;">
+  <select id="cidadematogrosso" onchange="clickopcao12()" class="basic">
+  	<option value="Cidade" selected="selected" >Cidade</option>
+  	<option value="Cuiabá" id="cuiaba">Cuiabá</option>
+  	<option value="Interior Mato Grossense" id="interiormatogrosso">Interior Matogrossense</option>
+  </select>
+</div>
+<!--Fim do Select Mato Grosso -->
+
+<!--Select Mato Grosso do Sul -->
+<div id="esconder12"  style="display: none;">
+  <select id="cidadematogrossosul" onchange="clickopcao13()" class="basic">
+  	<option value="Cidade" selected="selected" >Cidade</option>
+  	<option value="Campo Grande" id="campogrande">Campo Grande</option>
+  	<option value="Interior Mato Grosso do Sul" id="interiormatogrossosul">Interior Mato Grosso do Sul</option>
+  </select>
+</div>
+<!--Fim do Select Mato Grosso -->
+
+<!--Select Minas Gerais -->
+<div id="esconder13"  style="display: none;">
+  <select id="cidademinasgerais" onchange="clickopcao14()" class="basic">
+  	<option value="Cidade" selected="selected" >Cidade</option>
+  	<option value="Belo Horizonte" id="belohorizonte">Belo Horizonte</option>
+  	<option value="Região Metropolitana de BH" id="bhmetro">Região Mteropolitana de BH</option>
+  	<option value="Triângulo Mineiro" id="trangulomineiro">Triângulo Mineiro</option>
+  	<option value="Alto Parnaíba" id="altoparnaiba">Alto Parnaíba</option>
+  	<option value="Sul Mineiro" id="sulmieiro">Sul Mineiro</option>
+  	<option value="Norte Mineiro" id="nortemineiro">Norte Mineiro</option>
+  	<option value="Região da Mata" id="regiaomata">Região da Mata</option>
+  	<option value="Jequitinhonha" id="jequitinhonha">Jequitinhonha</option>
+  </select>
+</div>
+<!--Fim do Select Minas Gerais -->
+
+<!--Select Pará -->
+<div id="esconder14"  style="display: none;">
+  <select id="cidadepara" onchange="clickopcao15()" class="basic">
+  	<option value="Cidade" selected="selected" >Cidade</option>
+  	<option value="Pará" id="para">Pará</option>
+  	<option value="Interior Paraense" id="interiorparaense">Interior Paraense</option>
+  </select>
+</div>
+<!--Fim do Select Pará -->
+
+<!--Select Paraíba -->
+<div id="esconder15"  style="display: none;">
+  <select id="cidadeparaiba" onchange="clickopcao16()" class="basic">
+  	<option value="Cidade" selected="selected" >Cidade</option>
+  	<option value="Paraíba" id="paraiba">Paraíba</option>
+  	<option value="Interior Paraibano" id="interiorparaibano">Interior Paraibano</option>
+  </select>
+</div>
+<!--Fim do Select Paraíba -->
+
+<!--Select Paraná -->
+<div id="esconder16"  style="display: none;">
+  <select id="cidadeparana" onchange="clickopcao17()" class="basic">
+  	<option value="Cidade" selected="selected" >Cidade</option>
+  	<option value="Curitiba" id="curitiba">Curitiba</option>
+  	<option value="Região Metropolitana de Curitiba" id="curitibametro">Região Metropolitana de Curitiba</option>
+  	<option value="Norte Paranaense" id="norteparana">Norte Paranaense</option>
+  	<option value="Sul Paranaense" id="sulparana">Sul Paranaense</option>
+  	<option value="Leste Paranaense" id="lesteparana">Leste Paranaense</option>
+  	<option value="Oeste Paranaense" id="oesteparana">Oeste Paranaense</option>
+  </select>
+</div>
+<!--Fim do Select Paraná -->
+
+<!--Select Pernambuco -->
+<div id="esconder17"  style="display: none;">
+  <select id="cidadepernambuco" onchange="clickopcao18()" class="basic">
+  	<option value="Cidade" selected="selected" >Cidade</option>
+  	<option value="Recife" id="recife">Recife</option>
+  	<option value="Região Metropolitana de Recife" id="recifemetro">Região Metropolitana de Recife</option>
+  	<option value="Vale do São Francisco" id="valesaofranc">Vale do São Francisco</option>
+  	<option value="Sertão Pernambucano" id="sertaopernambuco">Sertão Pernambucano</option>
+  	<option value="Agreste Pernambucano" id="agrestepernambuco">Agreste Pernambucano</option>
+  </select>
+</div>
+<!--Fim do Select Pernambuco -->
+
+<!--Select Piauí -->
+<div id="esconder18"  style="display: none;">
+  <select id="cidadepiaui" onchange="clickopcao19()" class="basic">
+  	<option value="Cidade" selected="selected" >Cidade</option>
+  	<option value="Teresina" id="teresina">Teresina</option>
+  	<option value="Interior Piauiense" id="interiorpiaui">Interior Piauiense</option>
+  </select>
+</div>
+<!--Fim do Select Piauí -->
+
+<!--Select Rio de Janeiro -->
+<div id="esconder19"  style="display: none;">
+  <select id="cidaderio" onchange="clickopcao20()" class="basic">
+  	<option value="Cidade" selected="selected" >Cidade</option>
+  	<option value="Zona Norte Capital" id="zonanortecapital">Zona Norte Capital</option>
+  	<option value="Zona Oeste Capital" id="zonaoestecapital">Zona Oeste Capital</option>
+  	<option value="Zona Sul Capital" id="zonasulcapital">Zona Sul Capital</option>
+  	<option value="Centro Capital" id="centrocapital">Centro Capital</option>
+  	<option value="Fluminense Carioca" id="fluminensecarioca">Fluminense Carioca</option>
+  	<option value="Região Médio Paraíba" id="regiãomedioparaiba">Região Médio Paraíba</option>
+  	<option value="Região Serrana" id="regiaoserrana">Região Serrana</option>
+  	<option value="Região Litorânea" id="regiaolitoranea">Região Litorânea</option>
+  </select>
+</div>
+<!--Fim do Select Rio de Janeiro -->
+
+<!--Select Rio Grande do Norte -->
+<div id="esconder20"  style="display: none;">
+  <select id="cidaderiograndenorte" onchange="clickopcao21()" class="basic">
+  	<option value="Cidade" selected="selected" >Cidade</option>
+  	<option value="Natal" id="natal">Natal</option>
+  	<option value="Interior Potiguar" id="interiorpotiguar">Interior Potiguar</option>
+  </select>
+</div>
+<!--Fim do Select Rio Grande do Norte -->
+
+<!--Select Rio Grande do Sul -->
+<div id="esconder21"  style="display: none;">
+  <select id="cidaderiograndesul" onchange="clickopcao22()" class="basic">
+  	<option value="Cidade" selected="selected" >Cidade</option>
+  	<option value="Porto Alegre" id="portoalegre">Porto Alegre</option>
+  	<option value="Região Metropolitana POA" id="regiaopoa">Região Metropolitana POA</option>
+  	<option value="Sul Gaúcho" id="sulgaucho">Sul Gaúcho</option>
+  	<option value="Norte Gaúcho" id="nortegaucho">Norte Gaúcho</option>
+  	<option value="Leste Gaúcho" id="lestegaucho">Leste Gaúcho</option>
+  	<option value="Oeste Gaúcho" id="oestegaucho">Oeste Gaúcho</option>
+  </select>
+</div>
+<!--Fim do Select Rio Grande do Sul -->
+
+<!--Select Rondonia -->
+<div id="esconder22"  style="display: none;">
+  <select id="cidaderondonia" onchange="clickopcao23()" class="basic">
+  	<option value="Cidade" selected="selected" >Cidade</option>
+  	<option value="Rondônia" id="rondonia">Rondônia</option>
+  </select>
+</div>
+<!--Fim do Select Rondonia -->
+
+<!--Select Roraima -->
+<div id="esconder23"  style="display: none;">
+  <select id="cidaderoraima" onchange="clickopcao24()" class="basic">
+  	<option value="Cidade" selected="selected" >Cidade</option>
+  	<option value="Roraima" id="roraima">Roraima</option>
+  </select>
+</div>
+<!--Fim do Select Roraima -->
+
+<!--Select Santa Catarina -->
+<div id="esconder24"  style="display: none;">
+  <select id="cidadesantacatarina" onchange="clickopcao25()" class="basic">
+  	<option value="Cidade" selected="selected" >Cidade</option>
+  	<option value="Florianópolis" id="floripa">Florianópolois</option>
+  	<option value="Região Metropoliana de Florianópolis" id="floripametro">Região Metropolitana de Florianópolois</option>
+  	<option value="Oeste Catarinense" id="oestecatarinense">Oeste Catarinense</option>
+  	<option value="Norte Catarinense" id="nortecatarinense">Norte Catarinense</option>
+  	<option value="Sul Catarinense" id="sulcatarinense">Sul Catarinense</option>
+  	<option value="Vale do Itajaí" id="valedoitajai">Vale do Itajaí</option>
+  	<option value="Região Litorânea" id="regiaolitoranea">Região Litorânea</option>
+  </select>
+</div>
+<!--Fim do Select Santa Catarina -->
+
+<!--Select São Paulo -->
+<div id="esconder25"  style="display: none;">
+  <select id="cidadesaopaulo" onchange="clickopcao26()" class="basic">
+  	<option value="Cidade" selected="selected" >Cidade</option>
+  	<option value="Zona Norte Capital" id="zonanortecapital">Zona Norte Capital</option>
+  	<option value="Zona Sul Capital" id="zonasulcapital">Zona Sul Capital</option>
+  	<option value="Zona Leste Capital" id="zonalestecapital">Zona Leste Capital</option>
+  	<option value="Zona Oeste Capital" id="zonaoestecapital">Zona Oeste Capital</option>
+  	<option value="ABC" id="abc">ABC</option>
+  	<option value="Campinas e Região" id="campinaseregiao">Campinas e Região</option>
+  	<option value="Santos e Região" id="santoseregiao">Santos e Região</option>
+  	<option value="Vale do Paraíba" id="valedoparaiba">Vale do Paraíba</option>
+  	<option value="Bauru e Região" id="baurueregião">Bauru e Região</option>
+  	<option value="Piracicaba e Região" id="piracicabaeregiao">Piracicaba e Região</option>
+  	<option value="Marília e Região" id="mariliaeregião">Marília e Região</option>
+  	<option value="Pres. Prudente e Região" id="prespruderegiao">Pres. Prudente e Região</option>
+  	<option value="Araçatuba e Região" id="aracatubaeregião">Araçatuba e Região</option>
+  	<option value="S.J. do Rio Preto e Região" id="saojoseeregião">S.J. do Rio Preto e Região</option>
+  </select>
+</div>
+<!--Fim do Select São Paulo -->
+
+<!--Select Sergipe -->
+<div id="esconder26"  style="display: none;">
+  <select id="cidadesergipe" onchange="clickopcao27()" class="basic">
+  	<option value="Cidade" selected="selected" >Cidade</option>
+  	<option value="Arcaju" id="aracaju">Aracaju</option>
+  	<option value="Interior Sergipano" id="interiorsergipano">Interior Sergipano</option>
+  </select>
+</div>
+<!--Fim do Select Sergipe -->
+
+<!--Select Tocantins -->
+<div id="esconder27" style="display: none;">
+  <select id="cidadetocantins" onchange="clickopcao28()" class="basic">
+  	<option value="Cidade" selected="selected" >Cidade</option>
+  	<option value="Tocantins" id="tocantins">Tocantins</option>
+  </select>
+</div>
+  <!--Fim do Select Tocantins -->
+</div>
+
+<div id="divgrande2">
+<!-- Link Acre -->
+  <br><div align="center"><a href="https://chat.whatsapp.com/C4LHOkTvMPuFUvO9c0zw3v"><input type="button" value="Ir para o grupo" style="display: none; color: white; font-size: 15px;" id="lacre"></input></a></div>
+<!-- Fim Link Acre -->
+
+<!-- Link Alagoas -->
+  <div align="center"><a href="https://chat.whatsapp.com/JYJB2Lr9Nz6HxPjmNvxGwW"><input type="button" value="Ir para o grupo" style="display: none; color: white; font-size: 15px;" id="lmaceio"></a></div>
+
+  <div align="center"><a href="https://chat.whatsapp.com/J6lFYWs6mkAAL7xRYC9def"><input type="button" value="Ir para o grupo" style="display: none; color: white; font-size: 15px;" id="linterioralagoano"></a></div>
+  <!-- Fim Link Alagoas -->
+
+  <!-- Link Amapá -->
+  <div align="center"><a href="https://chat.whatsapp.com/IUOC40HEAH03t2Rx8YG4Ry"><input type="button" value="Ir para o grupo" style="display: none; color: white; font-size: 15px;" id="lamapa"></a></div>
+<!-- Fim Link Amapá -->
+
+<!-- Link Amazonas -->
+<div align="center"><a href="https://chat.whatsapp.com/LK8Jg2I22yM9UrYVCpBdfz"><input type="button" value="Ir para o grupo" style="display: none; color: white; font-size: 15px;" id="lmanaus"></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/DpXuXXjvZiyIj91X1IHd7E"><input type="button" value="Ir para o grupo"
+style="display: none; color: white; font-size: 15px;" id="linterioramazonense"></a></div>
+<!-- Fim Link Amazonas -->
+
+
+<!-- Link Bahia -->
+<div align="center"><a href="https://chat.whatsapp.com/EjdR9iiw9yR786QUXThRJG"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lsalvador" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/Icp2VJlX3NfAgWTsM3HH2M"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lsalvadormetro" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/IxqwXeheuXJFIO2pfiiAYS"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="loestebaiano" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/CBUyh5V39qELw5WjrKitrO"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lsulbaiano" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/I53jxYnfLDa0o93QJg0hUo"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lnortebaiano" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/EajYakYT8OJ8NpfFftFhjZ"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="llestebaiano" ></a></div>
+<!-- Fim Link Bahia -->
+
+
+
+<!-- Link Ceará -->
+<div align="center"><a href="https://chat.whatsapp.com/FlMxMHKqIzhAhKBmET0BtQ"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lfortaleza" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/FAMnqBzTGDoDF0z8tyKVXr"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lfortalezametro" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/Iw62jtpnePKBUX48OKFfsf"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lbaturite" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/GUJrpXbCumY34UUFM7vOpY"><input type="button" value="Ir para o grupo"style="display: none;  color: white; font-size: 15px;" id="llitoranea" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/Dk1P927Udd01c5MWbfDhSF"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lsobral" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/J1BE5QLVa5hF6WIryP1TA3"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lcariri" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/B9wf7BM45gH2dx282gHwFW"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="ljaguaribe" ></a></div>
+<!-- Fim Link Ceará -->
+
+
+
+<!-- Link Distrito Federal -->
+<div align="center"><a href="https://chat.whatsapp.com/LjAgJ88d7X24lfaDnYQqS0"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lbrasilia" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/EqZW1DokqtkKpjbM7PwCix"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lcidadessatelites" ></a></div>
+<!-- Fim Link Distrito Federal -->
+
+
+
+<!-- Link Espírito Santo -->
+<div align="center"><a href="https://chat.whatsapp.com/BOxMkctNSWO3q1gAaG6AqE"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lvilavelha" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/LqDdbmjfRsD65jylNUb3DW"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lsulespirito" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/EqYf6CDBBS54uyrXzLMKYV"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lnorteespirito" ></a></div>
+<!-- Fim Link Espírito Santo -->
+
+
+
+<!-- Link Goiás -->
+<div align="center"><a href="https://chat.whatsapp.com/Je9i7yX0TMXGFIcG7zXYcn"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lgoiania" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/Bxq4vEd8whiAROV5C7YCTr"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lnortegoiano" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/Fp3bL9S30oq6CbZiIDu7gh"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lcentrooestegoiano" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/I4BtHxIQcyNAhGBw8POL4a"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lsulgoiano" ></a></div>
+<!-- Fim Link Goiás -->
+
+
+
+<!-- Link Maranhão -->
+<div align="center"><a href="https://chat.whatsapp.com/Km3smMOElljJU5U84C8i0J"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lsaoluis" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/KnC4KF4qEhI3NIeWhoNGQP"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="linteriormaranhao" ></a></div>
+<!-- Fim Link Maranhão -->
+
+
+
+<!-- Link Mato Grosso -->
+<div align="center"><a href="https://chat.whatsapp.com/KHVI3ojLO5Z1USE48eqdCy"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lcuiaba" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/BcSaKMBv2sD63pb8vQq6Z5"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="linteriormatogrosso" ></a></div>
+<!-- Fim Link Mato Grosso -->
+
+
+
+<!-- Link Mato Grosso do Sul -->
+<div align="center"><a href="https://chat.whatsapp.com/KT8m2NOYS9FARbcZKZ3S0h"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lcampogrande" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/EyZPCOXVGETJz7gwf9P2DO"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="linteriormatogrossosul" ></a></div>
+<!-- Fim Link Mato Grosso do Sul -->
+
+
+
+<!-- Link Minas Gerais -->
+<div align="center"><a href="https://chat.whatsapp.com/I3aysxKytMH6Pp43gjkE8L"><input type="button"  value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lbelohorizonte" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/LRRD99ebVlXHvTgG5Ry8ZL"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lbelohorizontemetro" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/IaNOpCaprLkEkU1CAFD335"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="ltriangulomineiro" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/Hx5ms2uxCFz9ZI04yT6Y3y"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="laltoparnaiba" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/IJz58TWPh4qHiOkbO19JpH"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lsulmineiro" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/Ih3yXWd00bg46vJpJ4U4jS"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lregiaodamata" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/EgqctUEzw0vBRRy9R2mx2o"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lnortemineiro" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/DqbhSzZ9Btj4tvZxqCcejA"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="ljequitinhonha" ></a></div>
+<!-- Fim Link Minas Gerais -->
+
+
+
+<!-- Link Pará -->
+<div align="center"><a href="https://chat.whatsapp.com/FBeTe0KnyEI6U03a5vFgSm"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lpara" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/Bgn1PGIUKRcIDvw0K3AfPw"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="linteriorpara" ></a></div>
+<!-- Fim Link Pará -->
+
+
+
+<!-- Link Paraíba -->
+<div align="center"><a href="https://chat.whatsapp.com/BYFMGKc2fpAEA7GUbusu9L"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lparaiba" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/Ftz4boE2VZvCZn87ts97Id"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="linteriorparaiba" ></a></div>
+<!-- Fim Link Paraíba -->
+
+
+
+<!-- Link Paraná -->
+<div align="center"><a href="https://chat.whatsapp.com/H5IPWtePOx5Bj1QMGy6zkb"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lcuritiba" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/K5hbrvlg7eIHq4kG9Vinkt"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lcuritibametro" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/K45k47qdEhe9Yo8djMOJKf"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lnorteparanaense" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/IN7UrzjdrjBFMMdsxGXU1o"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lsulparanaense" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/L8SWPBZDrak1UDA3l3WPvk"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="llesteparanaense" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/G54HsKvvPt33FBxbRu9KdM"><input type="button" value="Ir para o grupo" style="display: none; color: white; font-size: 15px;" id="loesteparanaense" ></a></div>
+<!-- Fim Link Paraná -->
+
+
+
+<!-- Link Pernambuco -->
+<div align="center"><a href="https://chat.whatsapp.com/DfSXLfMwPIl765tw7qhhIQ"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lrecife" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/LscJZfdImGB9rHsBGN2KRy"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lrecifemetro" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/JewMK4lJh2T7dGgiwQGHTH"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lvalesaofrancisco"></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/IfeOyPdGQHe9SBxUmpTzkf"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lsertaopernambuco" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/LAAi38CSMKIL9qDyK4Ykyk"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lagrestepernambuco" ></a></div>
+<!-- Fim Link Pernambuco -->
+
+
+
+<!-- Link Piauí -->
+<div align="center"><a href="https://chat.whatsapp.com/EYyOE8IYvQ9DCaxxX08I8i"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lteresina" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/JaSTeJ13lPy6Oi4Ia2SV1o"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="linteriorpiaui" ></a></div>
+<!-- Fim Link Piauí -->
+
+
+
+<!-- Link Rio de Janeiro -->
+<div align="center"><a href="https://chat.whatsapp.com/I7Nnm8Ylk0c0dnxqDsVR4Y"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lzonanortecapitalrj" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/CJGv9u46JKKCjaWNyL9DeG"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lzonaoestecapitalrj" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/HeTzoMFw0wF9O8q2wwXezX"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lzonasulcapitalrj" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/EA2YLFFn9j79U6m81882BA"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lcentrocapitalrj" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/FOI2VkDyB4U92lI4Sov4u5"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lfluminensecariocarj" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/C1mNa4FdssKK8YRaE6U6nt"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lserranarj" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/LN9S6zQxCAx4norVGuYKE0"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="llitoranearj" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/LSgVHWxW4C7JzaaImVquGz"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lregiaomedioparaibarj" ></a></div>
+<!-- Fim Link Rio de Janeiro -->
+
+
+
+
+<!-- Link Rio Grande do Norte -->
+<div align="center"><a href="https://chat.whatsapp.com/JT74kAbvzZL4gOCCexGbgk"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lnatal" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/JU3lHJcKswo978wWE50Afj"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="linteriorpotiguar" ></a></div>
+<!-- Fim Link Rio Grande do Norte -->
+
+<!-- Link Rio Grande do Sul -->
+<div align="center"><a href="https://chat.whatsapp.com/ImHGYuJ8ea7Bzb66RdydkY"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lportoalegre" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/JwyZkyY7fECJ3QmGj9NSkG"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lregiaometropoa" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/HXmcHIPyJkh23NM6YogOLh"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lsulgaucho" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/CgWjBb7D9GiF9q3Vm2wloK"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lnortegaucho" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/H0LdbIekMz8Dw9KGVnSXsD"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="llestegaucho" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/I16H24SzLaf1gkM6dMS28d"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="loestegaucho" ></a></div>
+<!-- Fim Link Rio Grande do Sul -->
+
+<!-- Link Rondônia -->
+<div align="center"><a href="https://chat.whatsapp.com/IcR5zP45aCwFfmdH6rBxWX"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lrondonia" ></a></div>
+<!-- Fim Link Rondônia -->
+
+<!-- Link Roraima -->
+<div align="center"><a href="https://chat.whatsapp.com/KRhB9L88vtUF8z83XpFsMt"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lroraima" ></a></div>
+<!-- Fim Link Roraima -->
+
+<!-- Link Santa Catarina -->
+<div align="center"><a href="https://chat.whatsapp.com/CJJ851ye2f2EHTtfbpWCSN"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lfloripa" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/DhEKYI6iQBYJsWqKsF7qaM"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lfloripametro" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/IOuv6hXjHaE46eCWaMPKRr"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="loestecatarinense" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/LNZJzKHzTMjC8numzsMIyA"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lnortecatarinese" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/L2rHTDTSeRzIe2WugCLzVX"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lvaleitajai" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/HrNJ26Uc9Pg9R4OD7W8Ez8"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lsulcatarinense" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/L5L6sOgzqUF8uhfwLAWXmr"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lregiaolitoral" ></a></div>
+<!-- Fim Link Santa Catarina -->
+
+<!-- Link São Paulo -->
+<div align="center"><a href="https://chat.whatsapp.com/H6Jh6zo8ehnKRGxobf9fEl"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lzonanortecapitalsp" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/HdFwraAzCkQ9FezU6xO08B"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lzonasulcapitalsp" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/KorWFT11JdWG9CJY8lBsV3"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lzonalestecapitalsp" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/EShBKTfHc75JRfqafZwm7l"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lzonaoestecapitalsp" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/L8sSD8xL5z98Vh0H7vHrPl"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="labcsp" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/LqCMBrbMpFR2YNH1T7pmDt"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lcampinassp" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/GlMz7Q2PNPh1QdxInz4RVd"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lsantossp" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/EnfAmrs7xxPGOJpGvJIJzf"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lvaleparaibasp" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/IvUSYDMeAW5FTXak570KEQ"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lbaurusp" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/EwM9HEbjbM1AhnB64jdKID"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lpiracicabasp" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/Bb4Cn2fFyvA1L63Dw2cqlR"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lmariliasp" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/GSs2pP4dIuA9X32QQEjDsP"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lpresprudentesp" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/HhlXSCFvmonFLYin8gKvK3"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="laracatubasp" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/BpYAJkUOpg0EMLLn1jNNkr"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="lsaojoseriopretosp" ></a></div>
+<!-- Fim Link São Paulo -->
+
+<!-- Link Sergipe -->
+<div align="center"><a href="https://chat.whatsapp.com/KudKNQLgRVs7PfHdRrsnls"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="laracaju" ></a></div>
+
+<div align="center"><a href="https://chat.whatsapp.com/GPhGCMGuoiz4N9C97PAYSW"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="linteriorsergipe" ></a></div>
+<!-- Fim Link Sergipe -->
+
+<!-- Link Tocantins -->
+<div align="center"><a href="https://chat.whatsapp.com/CEAUZvHjSC6LvC4sbjTW5b"><input type="button" value="Ir para o grupo"style="display: none; color: white; font-size: 15px;" id="ltocantins" ></a></div>
+<!-- Fim Link Tocantins -->
+</div>
+</p>
+	</div>
+
+
+	<div>
+
+				<!-- Main -->
+					<section id="main">
+
+						<!-- Thumbnails -->
+							
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p style="color: green;">&copy; Todos os direitos resevados.
+					</footer>
+
+			</div>
+		
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
