@@ -51,6 +51,7 @@ $(function() {
 // escreve só uma vez
 var get = document.querySelector.bind(document)
 
+//função referente aos estados
 function clickopcao() {
 
     var opcao = get("#estado").value;
@@ -382,7 +383,7 @@ function clickopcao() {
 }
 
 
-
+//função referente a cidade Acre
 function clickopcao2() {
 
     var opcao2 = document.getElementById("cidadeacre").value;
@@ -402,6 +403,7 @@ function clickopcao2() {
     }
 }
 
+//função referente a cidade Alagoas
 function clickopcao3() {
 
     var opcao3 = document.getElementById("cidadealagoas").value;
@@ -429,6 +431,7 @@ function clickopcao3() {
     }
 }
 
+//função referente a cidade Amapá
 function clickopcao4() {
     var opcao4 = document.getElementById("cidadeamapa").value;
     if (opcao4 === "Cidade") {
@@ -445,6 +448,7 @@ function clickopcao4() {
 
 }
 
+//função referente a cidade Amazonas
 function clickopcao5() {
     var opcao5 = document.getElementById("cidadeamazonas").value;
     if (opcao5 === "Cidade") {
@@ -466,6 +470,7 @@ function clickopcao5() {
     }
 }
 
+//função referente a cidade Bahia
 function clickopcao6() {
     var opcao6 = document.getElementById("cidadebahia").value;
     if (opcao6 === "Cidade") {
@@ -513,6 +518,7 @@ function clickopcao6() {
     }
 }
 
+//função referente a cidade Ceará
 function clickopcao7() {
     var opcao7 = document.getElementById("cidadeceara").value;
     if (opcao7 === "Cidade") {
@@ -564,6 +570,7 @@ function clickopcao7() {
     }
 }
 
+//função referente a cidade Distrito Federal
 function clickopcao8() {
     var opcao8 = document.getElementById("cidadedistritofederal").value;
     if (opcao8 === "Cidade") {
@@ -585,6 +592,7 @@ function clickopcao8() {
     }
 }
 
+//função referente a cidade Espírito Santo
 function clickopcao9() {
     var opcao9 = document.getElementById("cidadeespiritosanto").value;
     if (opcao9 === "Cidade") {
@@ -612,6 +620,7 @@ function clickopcao9() {
     }
 }
 
+//função referente a cidade Goiás
 function clickopcao10() {
     var opcao10 = document.getElementById("cidadegoias").value;
     if (opcao10 === "Cidade") {
@@ -645,6 +654,7 @@ function clickopcao10() {
     }
 }
 
+//função referente a cidade Maranhão
 function clickopcao11() {
     var opcao11 = document.getElementById("cidademaranhao").value;
     if (opcao11 === "Cidade") {
@@ -670,6 +680,7 @@ function clickopcao11() {
     }
 }
 
+//função referente a cidade Mato Grosso
 function clickopcao12() {
     var opcao12 = document.getElementById("cidadematogrosso").value;
     if (opcao12 === "Cidade") {
@@ -691,6 +702,7 @@ function clickopcao12() {
     }
 }
 
+//função referente a cidade Mato Grosso do Sul
 function clickopcao13() {
     var opcao13 = document.getElementById("cidadematogrossosul").value;
     if (opcao13 === "Cidade") {
@@ -712,6 +724,7 @@ function clickopcao13() {
     }
 }
 
+//função referente a cidade Minas Gerais
 function clickopcao14() {
     var opcao14 = document.getElementById("cidademinasgerais").value;
     if (opcao14 === "Cidade") {
@@ -771,6 +784,7 @@ function clickopcao14() {
     }
 }
 
+//função referente a cidade Pará
 function clickopcao15() {
     var opcao15 = document.getElementById("cidadepara").value;
     if (opcao15 === "Cidade") {
@@ -792,6 +806,7 @@ function clickopcao15() {
     }
 }
 
+//função referente a cidade Paraíba
 function clickopcao16() {
     var opcao16 = document.getElementById("cidadeparaiba").value;
     if (opcao16 === "Cidade") {
@@ -813,6 +828,7 @@ function clickopcao16() {
     }
 }
 
+//função referente a cidade Paraná
 function clickopcao17() {
     var opcao17 = document.getElementById("cidadeparana").value;
     if (opcao17 === "Cidade") {
@@ -858,6 +874,7 @@ function clickopcao17() {
     }
 }
 
+//função referente a cidade Pernambuco
 function clickopcao18() {
     var opcao18 = document.getElementById("cidadepernambuco").value;
     if (opcao18 === "Cidade") {
@@ -897,6 +914,7 @@ function clickopcao18() {
     }
 }
 
+//função referente a cidade Piauí
 function clickopcao19() {
     var opcao19 = document.getElementById("cidadepiaui").value;
     if (opcao19 === "Cidade") {
@@ -918,6 +936,7 @@ function clickopcao19() {
     }
 }
 
+//função referente a cidade Rio de Janeiro
 function clickopcao20() {
     var opcao20 = document.getElementById("cidaderio").value;
     if (opcao20 === "Cidade") {
@@ -980,6 +999,7 @@ function clickopcao20() {
 
 }
 
+//função referente a cidade Rio Grande do Norte
 function clickopcao21() {
     var opcao21 = document.getElementById("cidaderiograndenorte").value;
     if (opcao21 === "Cidade") {
@@ -1001,6 +1021,7 @@ function clickopcao21() {
     }
 }
 
+//função referente a cidade Rio Grande do Sul
 function clickopcao22() {
     var opcao22 = document.getElementById("cidaderiograndesul").value;
     if (opcao22 === "Cidade") {
@@ -1046,6 +1067,7 @@ function clickopcao22() {
     }
 }
 
+//função referente a cidade Rondônia
 function clickopcao23() {
     var opcao23 = document.getElementById("cidaderondonia").value;
     if (opcao23 === "Cidade") {
@@ -1061,6 +1083,7 @@ function clickopcao23() {
     }
 }
 
+//função referente a cidade Roraima
 function clickopcao24() {
     var opcao24 = document.getElementById("cidaderoraima").value;
     if (opcao24 === "Cidade") {
@@ -1076,6 +1099,7 @@ function clickopcao24() {
     }
 }
 
+//função referente a cidade Santa Catarina
 function clickopcao25() {
     var opcao25 = document.getElementById("cidadesantacatarina").value;
     if (opcao25 === "Cidade") {
@@ -1127,6 +1151,7 @@ function clickopcao25() {
     }
 }
 
+//função referente a cidade São Paulo
 function clickopcao26() {
     var opcao26 = document.getElementById("cidadesaopaulo").value;
     if (opcao26 === "Cidade") {
@@ -1220,6 +1245,7 @@ function clickopcao26() {
     }
 }
 
+//função referente a cidade Sergipe
 function clickopcao27() {
     var opcao27 = document.getElementById("cidadesergipe").value;
     if (opcao27 === "Cidade") {
@@ -1241,6 +1267,7 @@ function clickopcao27() {
     }
 }
 
+//função referente a cidade Tocantins
 function clickopcao28() {
     var opcao28 = document.getElementById("cidadetocantins").value;
     if (opcao28 === "Cidade") {
