@@ -1422,7 +1422,7 @@ select.basic {
 	}
 
 
-	
+
 
 	body {
 		background-color: white;
@@ -2608,12 +2608,13 @@ select.basic {
 
 	#header {
 		text-align: center;
-		padding: 6em 0 4em 0;
+		padding: 2px;
 	}
 
 		#header h1 {
 			color: white;
 			font-size: 37px
+			
 		}
 
 		#header .avatar {
