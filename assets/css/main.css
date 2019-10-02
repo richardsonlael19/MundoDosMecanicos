@@ -1427,7 +1427,7 @@ select.basic {
 	body {
 		background-color: white;
 		background-image: url("../../images/bg.jpg");
-		background-size: auto;
+		background-size: cover;
 		background-position: top center;
 		
 	}
@@ -2650,7 +2650,7 @@ select.basic {
 
 		#footer:before {
 			content: '';
-			border-top: solid 1px green;
+			border-top: solid 1px white;
 			width: 10em;
 			display: block;
 			margin: 0 auto 3em auto;
